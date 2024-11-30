@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="container mx-auto px-4 py-8 max-w-5xl">
         {/* Hero Section */}
-        <div className="text-center space-y-8">
+        <div className="text-center space-y-12">
           <div className="text-center px-4">
             <div className="flex items-center justify-center gap-4 mb-6">
               {/* Left Tent */}
@@ -46,33 +46,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-
-        {/* Why Join Section */}
-        <section className="mt-12">
-          <h2 className="text-3xl font-bold mb-6 text-white">Why Join?</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {/* Card 1 */}
-            <div className="bg-purple-800/30 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <span className="block text-4xl mb-4">🌟</span>
-              <p>Earn fees as fans trade your token—no matter if it goes up or down.</p>
-            </div>
-            {/* Card 2 */}
-            <div className="bg-purple-800/30 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <span className="block text-4xl mb-4">🌟</span>
-              <p>The only platform where fans engage with your content through tokens.</p>
-            </div>
-            {/* Card 3 */}
-            <div className="bg-purple-800/30 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <span className="block text-4xl mb-4">🌟</span>
-              <p>Early creators get an exclusive allocation of $LFG, our Live.fun platform tokens!</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Closing Statement */}
-        <p className="text-center text-lg mt-12 italic">
-          Be your best self, create content that slaps, and let us handle the rest.
-        </p>
       </div>
     </main>
   );
